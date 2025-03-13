@@ -81,23 +81,23 @@ import java.time.Duration;
 
         // Click the checkbox
         triStateCheckboxDiv.click();
+//
+//        // Verify the tri-state checkbox current value
+//        WebElement triStateInput = driver.findElement(By.id("j_idt87:ajaxTriState_input"));
+//        String triStateValue = triStateInput.getAttribute("value");
 
-        // Verify the tri-state checkbox current value
-        WebElement triStateInput = driver.findElement(By.id("j_idt87:ajaxTriState_input"));
-        String triStateValue = triStateInput.getAttribute("value");
-
-        if (triStateValue.equals("0")) {
-            System.out.println("Tri-State Checkbox is in unchecked state.");
-        } else if (triStateValue.equals("1")) {
-            System.out.println("Tri-State Checkbox is in checked state.");
-        } else if (triStateValue.equals("2")) {
-            System.out.println("Tri-State Checkbox is in indeterminate state.");
-        } else {
-            System.out.println("Unexpected state.");
-        }
+//        if (triStateValue.equals("0")) {
+//            System.out.println("Tri-State Checkbox is in unchecked state.");
+//        } else if (triStateValue.equals("1")) {
+//            System.out.println("Tri-State Checkbox is in checked state.");
+//        } else if (triStateValue.equals("2")) {
+//            System.out.println("Tri-State Checkbox is in indeterminate state.");
+//        } else {
+//            System.out.println("Unexpected state.");
+//        }
 
         // Close the web browser
-        driver.quit();
+         driver.close();
 	     }
          }
          

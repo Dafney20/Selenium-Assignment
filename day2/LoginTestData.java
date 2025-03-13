@@ -12,7 +12,7 @@ public class LoginTestData extends TestData {
      System.out.println("Password entered.");
  }
 
- // Main method to demonstrate functionality
+// Main method to demonstrate functionality
  public static void main(String[] args) {
      // Create an object of the superclass TestData
      TestData testData = new TestData();
